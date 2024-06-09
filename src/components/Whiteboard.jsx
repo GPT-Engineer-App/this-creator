@@ -28,7 +28,7 @@ const Whiteboard = () => {
   return (
     <Box p={4} height="100vh" display="flex" flexDirection="column">
       <Flex justifyContent="space-between" alignItems="center" mb={4}>
-        <Heading size="lg">My Whiteboard</Heading>
+        <Heading size="lg">Interactive Whiteboard</Heading>
         <Flex>
           <Button colorScheme="teal" onClick={handleSave} mr={2}>
             Save
