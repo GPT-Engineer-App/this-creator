@@ -1,5 +1,6 @@
 import { Box, Button, Container, Flex, Heading, Image, Radio, RadioGroup, Stack, Text, VStack } from "@chakra-ui/react";
 import { FaPlay, FaDiscord, FaApple } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -44,6 +45,11 @@ const Index = () => {
       <Flex justify="center" mt={6}>
         <Button colorScheme="purple" mr={4}>Ask For Help</Button>
         <Button variant="outline" colorScheme="purple">Clear Canvas</Button>
+      </Flex>
+      <Flex justify="center" mt={6}>
+        <Link to="/whiteboard">
+          <Button colorScheme="blue">Go to Whiteboard</Button>
+        </Link>
       </Flex>
     </Container>
   );
