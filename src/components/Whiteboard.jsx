@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Box, Button, Flex, Heading } from "@chakra-ui/react";
 import { Excalidraw } from "@excalidraw/excalidraw";
-import "excalidraw/dist/excalidraw.min.css";
+import "@excalidraw/excalidraw/dist/excalidraw.min.css";
 
 const Whiteboard = () => {
   const excalidrawRef = useRef(null);
